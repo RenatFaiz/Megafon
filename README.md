@@ -1,4 +1,4 @@
-# Мегафон 
+# Мегафон [![Build Status](https://travis-ci.com/RenatFaiz/Megafon.svg?branch=master)](https://travis-ci.com/RenatFaiz/Megafon)
 Проанализировать тарифы со страницы: 
 https://tatarstan.megafon.ru/tariffs/all/ 
 
