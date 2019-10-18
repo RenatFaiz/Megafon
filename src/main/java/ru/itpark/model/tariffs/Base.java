@@ -1,7 +1,7 @@
-package ru.itpark.model;
+package ru.itpark.model.tariffs;
 
 
-public class TariffBase<T> {
+public class Base<T> {
     private String name;
     private String internet;
     private String description;
@@ -11,8 +11,8 @@ public class TariffBase<T> {
 
     public static final String UNLIMITED = "Безлимитный интернет";
 
-    public TariffBase(String name, String internet, String description,
-                      T price, String linkChoice, String linkAbout) {
+    public Base(String name, String internet, String description,
+                T price, String linkChoice, String linkAbout) {
         this.name = name;
         this.internet = internet;
         this.description = description;

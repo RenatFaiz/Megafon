@@ -1,14 +1,14 @@
-package ru.itpark.model;
+package ru.itpark.model.tariffs;
 
 import ru.itpark.service.Display;
 
-public class TariffOthers extends TariffBase implements Display {
+public class Others extends Base implements Display {
 
     private String callsAndSMS;
 
-    public TariffOthers(String name, String internet, String description,
-                        Object price, String linkChoice, String linkAbout,
-                        String callsAndSMS) {
+    public Others(String name, String internet, String description,
+                  Object price, String linkChoice, String linkAbout,
+                  String callsAndSMS) {
         super(name, internet, description, price, linkChoice, linkAbout);
         this.callsAndSMS = callsAndSMS;
     }

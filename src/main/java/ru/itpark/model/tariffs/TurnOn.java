@@ -1,8 +1,8 @@
-package ru.itpark.model;
+package ru.itpark.model.tariffs;
 
 import ru.itpark.service.Display;
 
-public class TurnOn extends TariffBase implements Display {
+public class TurnOn extends Base implements Display {
     private String labelImage;
     private int minutes;
     private int sms;

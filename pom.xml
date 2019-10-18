@@ -18,14 +18,6 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-                <configuration>
-                    <failIfNoTests>true</failIfNoTests>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
@@ -54,14 +46,5 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <!-- dep + TAB -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.5.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
 </project>
