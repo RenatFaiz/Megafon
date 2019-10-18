@@ -11,7 +11,8 @@ public class ForModems extends Base implements Display {
 
     @Override
     public void display() {
-        System.out.println(getName() + "\n" + getDescription() + "\n" + getInternet()
-                + "\n" + getPrice() + "\n" + getLinkAbout() + "\n");
+        System.out.println(getName() + "\n" + getDescription() + "\n"
+                + getInternet() + "\n" + getPrice() + "\n"
+                + getLinkAbout() + "\n");
     }
 }
