@@ -4,17 +4,18 @@ import ru.itpark.service.Display;
 
 public class TariffOthers extends TariffBase implements Display {
 
-    private String additionalDescription;
+    private String callsAndSMS;
 
     public TariffOthers(String name, String internet, String description,
-                        String price, String linkChoice, String linkAbout) {
+                        Object price, String linkChoice, String linkAbout,
+                        String callsAndSMS) {
         super(name, internet, description, price, linkChoice, linkAbout);
-
+        this.callsAndSMS = callsAndSMS;
     }
 
     @Override
     public void display() {
-      //  getName() + getDescription() + getInternet()
-
+        System.out.println(getName() + "\n" + getDescription() + "\n" + getInternet()
+                + "\n" + callsAndSMS + "\n" + getPrice() + "\n" + getLinkAbout());
     }
 }
