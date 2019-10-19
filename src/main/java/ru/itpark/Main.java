@@ -1,9 +1,9 @@
 package ru.itpark;
 
-import ru.itpark.model.tariffs.Base;
-import ru.itpark.model.tariffs.ForModems;
-import ru.itpark.model.tariffs.Others;
-import ru.itpark.model.tariffs.TurnOn;
+import ru.itpark.model.tariff.Base;
+import ru.itpark.model.tariff.ForModems;
+import ru.itpark.model.tariff.Others;
+import ru.itpark.model.tariff.TurnOn;
 
 public class Main {
     public static void main(String[] args) {
