@@ -1,4 +1,4 @@
-package ru.itpark.model.tariffs;
+package ru.itpark.model.tariff;
 
 
 public class Base<T> {

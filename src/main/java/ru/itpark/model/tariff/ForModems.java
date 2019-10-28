@@ -1,4 +1,4 @@
-package ru.itpark.model.tariffs;
+package ru.itpark.model.tariff;
 
 import ru.itpark.service.Display;
 
